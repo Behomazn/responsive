@@ -1,0 +1,211 @@
+/* /_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_
+ 全デバイス共通のスタイルとスマートフォンおよび小型タブレット向けレイアウトの指定
+/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_*/
+
+/*==========================================
+ body
+===========================================*/
+body {
+	width: 100%;
+	background-color:#FFF;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color:#000;
+	font-size: 16px;
+}
+a {
+	color:#000;
+	text-decoration:none;
+}
+a:hover {
+	color:#333;
+	text-decoration:underline;
+}
+/*==========================================
+ ヘッダーのスタイル
+===========================================*/
+header {
+	text-align:center;
+}
+header h1 {
+	margin:0 auto;
+	padding:15px 5px 7px 5px;
+	width:90%;
+}
+header h1 img {
+	width:100%;
+	max-width:265px;
+}
+header {
+	_zoom: 1;
+	position:relative;
+	overflow:hidden;
+}
+header ul.s_nav {
+	margin-bottom:15px;
+	position:relative;
+	left:52%;
+	float:left;
+}
+header ul.s_nav li {
+	float:left;
+	position:relative;
+	left: -50%;
+}
+header ul.s_nav li a {
+	display:block;
+	font-size:0.8em;
+	margin-right:20px;
+	padding-left:20px;
+}
+header ul.s_nav li.contact a {
+	background:url(../images/icn_contact.jpg) no-repeat left center;
+}
+header ul.s_nav li.news a {
+	background:url(../images/icn_news.jpg) no-repeat left center;
+}
+header ul.s_nav li.sitemap a {
+	background:url(../images/icn_sitemap.jpg) no-repeat left center;
+}
+header p {
+	width:100%;
+}
+header p img {
+	width:100%;
+	height:auto;
+	max-width:960px;
+}
+/*==========================================
+ グローバルナビゲーションのスタイル
+===========================================*/
+nav ul {
+	overflow: hidden;
+	margin-bottom: 10px;
+	margin: 0 auto;
+}
+nav ul li {
+	text-align: center;
+	float: left;
+	width: 50%;
+	border-bottom: 2px solid #5093CF;
+}
+li.tops,li.outer,li.accessory {
+	width: 49%;
+	border-right: 1px dashed #5093CF;
+}
+nav ul li a {
+	display: block;
+	width: 100%;
+}
+/*==========================================
+ コンテンツエリア全体のスタイル
+===========================================*/
+div#contents {
+	background: url(../images/bg_footer.jpg) no-repeat bottom;
+	margin-bottom: 10px;
+	padding-bottom: 100px;
+}
+/*==========================================
+ articleのスタイル
+===========================================*/
+div#contents article {
+	_zoom: 1;
+	overflow: hidden;
+}
+div#contents article h2 {
+	margin: 0 0 15px 5px;
+}
+div#contents article section {
+	text-align: center;
+	width: 50%;
+	min-width: 120px;
+	float: left;
+	margin-bottom: 30px;
+}
+div#contents article section img {
+	width: 100%;
+	height: auto;
+	max-width: 184px;
+}
+div#contents article section h3 {
+	color: #FB1E6B;
+	font-size: 1.2em;
+	font-weight: bold;
+	border-bottom: double #5093CF;
+	margin: 10px 4px 4px 4px;
+	padding-bottom: 4px;
+}
+div#contents article section p {
+	text-align: left;
+	font-size: 1em;
+	line-height: 2.0em;
+	padding: 0 15px;
+}
+/*==========================================
+ asideのスタイル
+===========================================*/
+div#contents aside {
+	margin-left: 5px;
+}
+div#contents aside h2 {
+	text-align: left;
+	font-size:1.2em;
+	margin-bottom: 15px;
+	background: url(../images/bg_headerLine.jpg) repeat-x bottom;
+	padding-bottom: 10px;
+}
+div#contents aside#news section h3 {
+	font-size: 0.7em;
+	background: url(../images/icn_arrow.jpg) no-repeat center left;
+	margin-bottom: 10px;
+	padding-left: 7px;
+}
+div#contents aside#news section p {
+	line-height: 1.4em;
+	font-size: 0.8em;
+	margin: 0 0 20px 10px;
+}
+div#contents aside#news section p a {
+	text-decoration: underline;
+}
+div#contents v#news section p a:hover {
+	text-decoration: none;
+}
+div#contents aside#information {
+	text-align: center;
+	margin-left: 5px;
+}
+div#contents aside#information ul li {
+	width: 100%;
+	margin-bottom: 5px;
+}
+div#contents aside#information ul li img {
+	width: 100%;
+	height: auto;
+	max-width: 470px;
+}
+/*==========================================
+ ページトップへボタンのスタイル
+===========================================*/
+a#pagetopBtn img {
+	position: fixed;
+	bottom: 10px;
+	right: 1px;
+}
+/*==========================================
+ フッターのスタイル
+===========================================*/
+footer {
+	clear: both;
+	background: url(../images/footer_bg.gif) repeat-x;
+	padding-top: 5px;
+}
+footer div {
+	margin: 20px 0 0 20px;
+}
+footer div p {
+	font-size: 1em;
+	line-height: 2.0em;
+}
+footer div small {
+	font-size: 1em;
+}

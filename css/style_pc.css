@@ -1,0 +1,91 @@
+/* PC向けレイアウトの指定：961px以上では固定レイアウト */
+header {
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+header h1 {
+	width: 212px;
+	float: left;
+}
+header ul.s_nav {
+	float: right;
+	height: 16px;
+	margin-top: 32px;
+}
+header ul.s_nav li {
+	width: 100px;
+	height: 16px;
+	float: left;
+}	
+nav {
+	text-align: center;
+	border-bottom: 3px double #5093CF;
+	margin: 10px auto 15px auto;
+  max-width: 960px;
+}
+nav ul {
+	margin-left: auto;
+	margin-right: auto;
+}
+nav ul li {
+	text-align: center;
+	float: left;
+	width: 16% !important;
+	width: 150px;
+	border-bottom: none;
+	border-right: 1px dashed #5093CF;
+}
+nav ul li:nth-child(odd) {
+	width: 17%;
+}
+nav ul li.foulard {
+  border-right: 0px;
+}
+nav ul li a {
+  display: block;
+}
+div#contents {
+	max-width: 960px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding-bottom: 120px;
+}
+div#contents article section {
+  width: 20%;
+}
+div#contents article section h3 {
+	line-height: 2.5;
+	margin: 4px;
+	padding-bottom: 0;
+	font-size: 0.8em;
+	border: dashed #5093CF 1px;
+	background: #FFC;
+}
+div#contents article section p {
+  font-size: 0.8em;
+  line-height: 2.0em;
+}
+div#contents aside {
+	width: 49%;
+	float: left;
+}
+div#contents aside#information {
+	width: 467px;
+}
+/*div#contents aside#information h2 {
+	text-align: left;
+	margin: 0 0 15px 0;
+}*/
+footer {
+  text-align: center;
+  clear: both;
+}
+footer div p {
+	font-size: 0.7em;
+	line-height: 2.0em;
+}
+footer div small {
+	font-size: 0.71em;
+}
+
